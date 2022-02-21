@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test sites</title>
+    <link rel="stylesheet" href="Assets/css_file/index.css">
+    <link rel="stylesheet" href="Assets/css_file/adaptation.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <!-- Навигация -->
+            <nav class = "nav nav__header">
+                <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">About me</a>
+                <a href="#" class="nav__link">Portfolio</a>
+                <a href="#" class="nav__link">Contact</a>
+            </nav>
+            <!-- Бургер меню -->
+            <div class="hamburger__menu">
+                <input type="checkbox" id = "menu__toggle">
+                <label for="menu__toggle" class = "menu__btn">
+                    <img src="Assets/image/icon/infinity.svg" alt="" class = "inf__img"><span class = "menu__btnStyle">Menu</span>
+                </label>
+                <ul class = "menu__box">
+                    <li><a href="#" class = "menu__item">Home</a></li>
+                    <li><a href="#" class = "menu__item">About me</a></li>
+                    <li><a href="#" class = "menu__item">Portfolio</a></li>
+                    <li><a href="#" class = "menu__item">Contact</a></li>
+                </ul>
+            </div>
+            
+            <hr class="header__bottomNav">
+            <!-- Футер в каждом блоке-->
+            <div class="block__footer block__footer__head">
+                <div class="block__footerText">
+                    Scroll down to see more
+                </div>
+                <div class="btn__arrow__head">
+                    <input type="button" id = "btn__arrow__head">
+                    <label for="btn__arrow__head" class = "label__btn__arrow__head">
+                        <img src="Assets/image/Head/Double__arrow.png" alt="">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<main class="main">
+    <div class="container main__container__photo">
+        <div class="main__inner">
+            <!-- Навигация -->
+            <nav class = "nav nav__main">
+                <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">About me</a>
+                <a href="#" class="nav__link">Portfolio</a>
+                <a href="#" class="nav__link">Contact</a>
+            </nav>
+            <hr class="main__bottomNav">
+
+            <div class="main__about">
+                <div class="main__photoHuman">
+                    <img src="Assets/image/Main/human.png" alt="">
+                </div>
+                <div class="main__aboutHuman main__container__about">
+                    <p class="main__headTitle">About me</p>
+                    <p class="main__headText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p class="main__headTextdown">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="main__headName">Jason Wood</p>
+                </div>
+            </div>
+            <!-- Футер в каждом блоке-->
+            <div class="block__footer block__footer__main">
+                <div class="block__footerText block__footerText_2">
+                    keep scrolling, there is still mote to come.
+                </div>
+                <div class="btn__arrow__head">
+                    <input type="button" id = "btn__arrow__head">
+                    <label for="btn__arrow__head" class = "label__btn__arrow__head">
+                        <img src="Assets/image/Head/Double__arrow.png" alt="">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src = "Assets/js/app.js"></script>
+</body>
+</html>

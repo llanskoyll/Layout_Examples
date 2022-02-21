@@ -1,0 +1,33 @@
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+    .header {
+        height: 100vh;
+    }
+    .nav__link {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    .section__h2 {
+        font-size: 45px;
+    }
+    .section__h1 {
+        font-size: 90px;
+    }
+    .suptext__button {
+        margin-top: 250px;
+    }
+    .main__photo__items {
+        max-width: 280px;
+        max-height: 150px;
+    }
+    .main__photo__items img {
+        width: 280px;
+        height: 200px;
+    }
+    .main__photo__text h3 {
+        width: 200px;
+    }
+
+}

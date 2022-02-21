@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-weight: 400;
+	background: url(image/bck_all.jpg) center no-repeat;
+	background-size: cover;
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+/* Container */
+
+.container {
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+	height: 100vh;
+	background: url(image/bck_head.jpg) center no-repeat;
+	background-size: cover;
+	font-family: 'Lexend Mega', sans-serif;
+}
+.header__inner  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 70px;
+	position: relative;
+}
+
+.header__logo:after {
+	content: "";
+	height: 10px;
+	width: 100%;
+	background: #f38181;
+	position: absolute;
+	margin: 0 auto;
+}
+
+/* Nav */
+
+.nav__link {
+	font-size: 40px;
+	text-decoration: none;
+	color: #000;
+	margin-left: 80px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.nav__link:first-child {
+	margin-left: 0px;
+}
+
+.nav__link:hover {
+	color: #999999;
+	border-bottom: 3px solid #999;
+}
+
+
+/* Section */
+.section  {
+    background: url(image/back_2_03.gif) center ;
+}
+.section__inner {
+	display: flex;
+	justify-content: space-between;
+    padding: 10px;
+	background-size: cover;
+	align-items: center;
+}
+
+.section__inner__text {
+	text-align: center;
+	width: 100%;
+	max-width: 550px;
+}
+
+.section__inner__suptext {
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Neuton', serif;
+  	text-align: center;
+}
+
+.section__inner__suptext:after {
+	content: "";
+	display: block;
+	height: 10px;
+	width: 40px;
+	background-color: #f38181;
+	margin: 0 auto;
+
+}
+.section__inner__subtext{
+	font-size: 18px;
+	margin-top: 30px;
+	padding:0 80px;
+}
+
+.section__img  {
+	width: 50em;
+    opacity: 0.75;
+}
+
+
+.section__end {
+	opacity: 0.75;
+	width: 100%;
+	height: 100%;
+	max-height: 780px;
+}
+
+
+/* Footer */
+
+.footer {
+	background: url("https://static.tildacdn.com/tild6636-6334-4235-b635-326538386331/Best-Fish-Cleaning-T.jpg") center no-repeat;
+	background-size: cover;
+    color: #fff;
+}
+
+.footer__inner {
+    padding-bottom: 10em;
+	background-size: cover;
+}
+
+.footer__content {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.text_logo {
+	padding-top: 5%;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 700;
+    color: #fff;
+    font-family: 'Lexend Mega', sans-serif;
+
+}
+
+/* Address' */
+
+.address__items {
+	padding-top: 10px;
+}
+
